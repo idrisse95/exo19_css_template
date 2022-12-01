@@ -6,29 +6,120 @@
     margin: 1px 200px;
     padding-bottom: 100px;
    }
- 
+ .logoNav img{
+    width: 500px;
+ }
+
+
+
+
 
    #divImgNav{
 
     padding-left: 60px;
+    padding-bottom: 50px;
    }
    #divImgNav div{
     margin-left: 25px;
     color: rgb(6, 2, 26) ;
-
-  
    }
+
    #divImgNav img{
     width: 110px;
    }
+
+
+
+
+
+
 
    #sectionTitre{
     display: block;
    }
    #sectionTitre .imgT{
     text-align: center;
+    padding: 50px 0;
+   }
+   #sectionTitre img{
+    width: 300px;
    }
    .txtTitre{
     margin-left: 0;
+    font-size: 1em;
+    text-align: center;
    }
+
+
+
+
+   .titreS{
+    margin-top: 100px;
+    font-size: 2em;
+    padding:25px 100px;
+   
+    
+   }
+   .flexS{
+    display: block;
+   }
+
+   .flexS img{
+    width: 500px;
+    padding-left: 50px;
+    padding-top: 100px;
+   }
+   .flexS div:nth-child(2){
+    width: auto;
+    padding: unset;
+    text-align: center;
+
+}
+#eclosion{
+    font-size: 2em;
+}
+
+#LOGO{
+    font-size: 2em;
+}
+#LOGO img{
+    width: 200px;
+}
+#logo{
+
+    margin: 1px auto;
+    width: 60%;
+ 
+    flex-wrap: wrap;
+}
+#logo div{
+    margin-bottom: 25px;
+}
+#logo img{
+    width: 200px;
+}
+
+
+#divFooter{
+  text-align: center;
+    display: block;
+}
+
+#divFooter>div{
+    font-size: 2em;
+    margin-top: 30px;
+}
+#divFooter img{
+    width: 150px;
+}
+
+#logoB{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0 100px;
+}
+#logoB div{
+    margin-bottom: 25px;
+}
    }

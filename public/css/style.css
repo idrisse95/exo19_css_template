@@ -92,6 +92,10 @@ nav{
     text-align: center;
     
 }
+#logoB{
+display: flex;
+justify-content: space-evenly;
+text-align: center;}
 
 #logo img{
     margin-bottom: 15px;
