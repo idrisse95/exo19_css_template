@@ -36,7 +36,7 @@ nav{
 #sectionTitre{
     color: white;
     display: flex;
-    background-color: rgb(96, 101, 144);
+    background-color: rgb(44, 49, 95);
     
     padding: 50px 200px;
 }
@@ -53,4 +53,27 @@ nav{
 
 .txtTitre{
     margin-left: 200px;
+}
+/* eclosion */
+#eclosion{
+    padding-top: 50px;
+}
+.titreS{
+    background-color: rgb(44, 49, 95);
+    margin: 1px auto;
+    width: 300px;
+    font-size: 4em;
+    color: white;
+    text-align: center;
+    padding: 10px 35px;
+}
+.flexS{
+    padding: 50px 180px;
+    display: flex;
+}
+
+.flexS div:nth-child(2){
+    width: 500px;
+    padding-left: 250px;
+
 }
