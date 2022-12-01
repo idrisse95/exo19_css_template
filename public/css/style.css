@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* nav */
@@ -7,6 +8,10 @@ nav{
     background-color: rgb(6, 2, 26);
     padding: 10px;
 }
+#divNav .logoNav{
+    padding-top: 10px;
+}
+
 #divNav{
     display: flex;
     justify-content: space-between;
@@ -24,4 +29,28 @@ nav{
     text-align: center;
     padding-left: 5px;
 
+}
+
+/* section Deux */
+
+#sectionTitre{
+    color: white;
+    display: flex;
+    background-color: rgb(96, 101, 144);
+    
+    padding: 50px 200px;
+}
+
+#sectionTitre .txtTitre span:first-child{
+    font-size: 4em;
+    
+}
+#sectionTitre .txtTitre span:nth-child(3){
+    margin-top: 10px;
+    font-size: 2.5em;
+    font-weight:100;
+}
+
+.txtTitre{
+    margin-left: 200px;
 }
