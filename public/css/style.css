@@ -3,9 +3,25 @@ body{
 }
 
 /* nav */
+nav{
+    background-color: rgb(6, 2, 26);
+    padding: 10px;
+}
 #divNav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 /* img de la nav */
+
+#divImgNav{
+    display: flex;
+}
+#divImgNav div{
+    color: white;
+    font-size: 15px;
+    width: 100px;
+    text-align: center;
+    padding-left: 5px;
+
+}
