@@ -1,0 +1,34 @@
+@media only screen and (max-width:988px) {
+   #divNav{
+    display: block;
+   }
+   #divNav .logoNav{
+    margin: 1px 200px;
+    padding-bottom: 100px;
+   }
+ 
+
+   #divImgNav{
+
+    padding-left: 60px;
+   }
+   #divImgNav div{
+    margin-left: 25px;
+    color: rgb(6, 2, 26) ;
+
+  
+   }
+   #divImgNav img{
+    width: 110px;
+   }
+
+   #sectionTitre{
+    display: block;
+   }
+   #sectionTitre .imgT{
+    text-align: center;
+   }
+   .txtTitre{
+    margin-left: 0;
+   }
+   }
