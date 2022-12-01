@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+
+/* nav */
+#divNav{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* img de la nav */
