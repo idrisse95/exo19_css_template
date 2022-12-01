@@ -66,6 +66,7 @@ nav{
     color: white;
     text-align: center;
     padding: 10px 35px;
+    
 }
 .flexS{
     padding: 50px 180px;
@@ -76,4 +77,18 @@ nav{
     width: 500px;
     padding-left: 250px;
 
+}
+
+/* section logo */
+
+#logo{
+    padding: 30px;
+    background-color: wheat;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#logo img{
+    margin-bottom: 15px;
 }
